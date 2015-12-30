@@ -111,7 +111,6 @@
 				470302E21C31148C00A624BF /* AppDelegate.m */,
 				470302E41C31148C00A624BF /* ViewController.h */,
 				470302E51C31148C00A624BF /* ViewController.m */,
-				470302E71C31148C00A624BF /* Main.storyboard */,
 				470303111C3116C500A624BF /* CircleProgressView.h */,
 				470303121C3116C500A624BF /* CircleProgressView.m */,
 				470303151C316B8600A624BF /* UIColor+Extension.h */,
@@ -124,6 +123,7 @@
 		470302DE1C31148C00A624BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				470302E71C31148C00A624BF /* Main.storyboard */,
 				470302EA1C31148C00A624BF /* Assets.xcassets */,
 				470302EC1C31148C00A624BF /* LaunchScreen.storyboard */,
 				470302EF1C31148C00A624BF /* Info.plist */,

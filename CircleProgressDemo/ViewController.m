@@ -28,11 +28,12 @@
     self.timeLength = 1*4;
     self.currentTime = 0;
     
+    [self start];
+}
+- (void)start{
     self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(timerTask)];
     [self.displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
-    
 }
-
 - (void)timerTask{
     if (self.currentTime > self.timeLength) {
         // 音乐结束播放
@@ -43,6 +44,13 @@
     
     self.progressView.progress = self.currentTime/self.timeLength;
     self.currentTime += 1/60.0;     // 读取当前音乐播放到第几秒了，不要直接累加
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    if (self.currentTime >= self.timeLength) {
+        self.currentTime = 0;
+        [self start];
+    }
 }
 
 @end
