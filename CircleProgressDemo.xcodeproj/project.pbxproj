@@ -16,7 +16,8 @@
 		472CA5011C33D49900CB0E11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA4F81C33D49900CB0E11 /* AppDelegate.m */; };
 		472CA5021C33D49900CB0E11 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA4FB1C33D49900CB0E11 /* UIColor+Extension.m */; };
 		472CA5031C33D49900CB0E11 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA4FE1C33D49900CB0E11 /* CircleProgressView.m */; };
-		472CA5041C33D49900CB0E11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA5001C33D49900CB0E11 /* ViewController.m */; };
+		472CA5071C33D85800CB0E11 /* SingleCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA5061C33D85800CB0E11 /* SingleCircleViewController.m */; };
+		472CA50A1C33DBFA00CB0E11 /* ManyCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA5091C33DBFA00CB0E11 /* ManyCircleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +56,10 @@
 		472CA4FB1C33D49900CB0E11 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		472CA4FD1C33D49900CB0E11 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
 		472CA4FE1C33D49900CB0E11 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
-		472CA4FF1C33D49900CB0E11 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		472CA5001C33D49900CB0E11 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		472CA5051C33D85800CB0E11 /* SingleCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCircleViewController.h; sourceTree = "<group>"; };
+		472CA5061C33D85800CB0E11 /* SingleCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCircleViewController.m; sourceTree = "<group>"; };
+		472CA5081C33DBFA00CB0E11 /* ManyCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManyCircleViewController.h; sourceTree = "<group>"; };
+		472CA5091C33DBFA00CB0E11 /* ManyCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManyCircleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +151,10 @@
 			children = (
 				472CA4F71C33D49900CB0E11 /* AppDelegate.h */,
 				472CA4F81C33D49900CB0E11 /* AppDelegate.m */,
-				472CA4FF1C33D49900CB0E11 /* ViewController.h */,
-				472CA5001C33D49900CB0E11 /* ViewController.m */,
+				472CA5051C33D85800CB0E11 /* SingleCircleViewController.h */,
+				472CA5061C33D85800CB0E11 /* SingleCircleViewController.m */,
+				472CA5081C33DBFA00CB0E11 /* ManyCircleViewController.h */,
+				472CA5091C33DBFA00CB0E11 /* ManyCircleViewController.m */,
 				472CA4FC1C33D49900CB0E11 /* view */,
 				472CA4F91C33D49900CB0E11 /* category */,
 			);
@@ -305,10 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				472CA5011C33D49900CB0E11 /* AppDelegate.m in Sources */,
+				472CA50A1C33DBFA00CB0E11 /* ManyCircleViewController.m in Sources */,
 				472CA5031C33D49900CB0E11 /* CircleProgressView.m in Sources */,
 				472CA5021C33D49900CB0E11 /* UIColor+Extension.m in Sources */,
 				470302E01C31148C00A624BF /* main.m in Sources */,
-				472CA5041C33D49900CB0E11 /* ViewController.m in Sources */,
+				472CA5071C33D85800CB0E11 /* SingleCircleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

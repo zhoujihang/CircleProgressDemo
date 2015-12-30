@@ -1,15 +1,15 @@
 //
-//  ViewController.m
+//  SingleCircleViewController.m
 //  CircleProgressDemo
 //
-//  Created by 周际航 on 15/12/28.
+//  Created by 周际航 on 15/12/30.
 //  Copyright © 2015年 zjh. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SingleCircleViewController.h"
 #import "CircleProgressView.h"
+@interface SingleCircleViewController ()
 
-@interface ViewController ()
 // 进度条
 @property (weak, nonatomic) IBOutlet CircleProgressView *progressView;
 // 时间总长度
@@ -18,16 +18,17 @@
 @property (nonatomic, assign) CGFloat currentTime;
 // 计时器
 @property (nonatomic, strong) CADisplayLink *displayLink;
+
 @end
 
-@implementation ViewController
+@implementation SingleCircleViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.timeLength = 1*4;
     self.currentTime = 0;
-    
+
     [self start];
 }
 - (void)start{
