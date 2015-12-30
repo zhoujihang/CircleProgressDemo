@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.timeLength = 1*6;
+    self.timeLength = 1*4;
     self.currentTime = 0;
     
     self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(timerTask)];
