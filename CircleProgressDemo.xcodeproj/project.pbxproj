@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		470302E01C31148C00A624BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 470302DF1C31148C00A624BF /* main.m */; };
-		470302E31C31148C00A624BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 470302E21C31148C00A624BF /* AppDelegate.m */; };
-		470302E61C31148C00A624BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470302E51C31148C00A624BF /* ViewController.m */; };
 		470302E91C31148C00A624BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470302E71C31148C00A624BF /* Main.storyboard */; };
 		470302EB1C31148C00A624BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470302EA1C31148C00A624BF /* Assets.xcassets */; };
 		470302EE1C31148C00A624BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470302EC1C31148C00A624BF /* LaunchScreen.storyboard */; };
 		470302F91C31148C00A624BF /* CircleProgressDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 470302F81C31148C00A624BF /* CircleProgressDemoTests.m */; };
 		470303041C31148C00A624BF /* CircleProgressDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 470303031C31148C00A624BF /* CircleProgressDemoUITests.m */; };
-		470303131C3116C500A624BF /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470303121C3116C500A624BF /* CircleProgressView.m */; };
-		470303171C316B8600A624BF /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 470303161C316B8600A624BF /* UIColor+Extension.m */; };
+		472CA5011C33D49900CB0E11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA4F81C33D49900CB0E11 /* AppDelegate.m */; };
+		472CA5021C33D49900CB0E11 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA4FB1C33D49900CB0E11 /* UIColor+Extension.m */; };
+		472CA5031C33D49900CB0E11 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA4FE1C33D49900CB0E11 /* CircleProgressView.m */; };
+		472CA5041C33D49900CB0E11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CA5001C33D49900CB0E11 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +39,6 @@
 /* Begin PBXFileReference section */
 		470302DB1C31148C00A624BF /* CircleProgressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleProgressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		470302DF1C31148C00A624BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		470302E11C31148C00A624BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		470302E21C31148C00A624BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		470302E41C31148C00A624BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		470302E51C31148C00A624BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		470302E81C31148C00A624BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		470302EA1C31148C00A624BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		470302ED1C31148C00A624BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,10 +49,14 @@
 		470302FF1C31148C00A624BF /* CircleProgressDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		470303031C31148C00A624BF /* CircleProgressDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressDemoUITests.m; sourceTree = "<group>"; };
 		470303051C31148C00A624BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		470303111C3116C500A624BF /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
-		470303121C3116C500A624BF /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
-		470303151C316B8600A624BF /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
-		470303161C316B8600A624BF /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		472CA4F71C33D49900CB0E11 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472CA4F81C33D49900CB0E11 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472CA4FA1C33D49900CB0E11 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		472CA4FB1C33D49900CB0E11 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		472CA4FD1C33D49900CB0E11 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		472CA4FE1C33D49900CB0E11 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+		472CA4FF1C33D49900CB0E11 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		472CA5001C33D49900CB0E11 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,14 +107,7 @@
 		470302DD1C31148C00A624BF /* CircleProgressDemo */ = {
 			isa = PBXGroup;
 			children = (
-				470302E11C31148C00A624BF /* AppDelegate.h */,
-				470302E21C31148C00A624BF /* AppDelegate.m */,
-				470302E41C31148C00A624BF /* ViewController.h */,
-				470302E51C31148C00A624BF /* ViewController.m */,
-				470303111C3116C500A624BF /* CircleProgressView.h */,
-				470303121C3116C500A624BF /* CircleProgressView.m */,
-				470303151C316B8600A624BF /* UIColor+Extension.h */,
-				470303161C316B8600A624BF /* UIColor+Extension.m */,
+				472CA4F61C33D49900CB0E11 /* class */,
 				470302DE1C31148C00A624BF /* Supporting Files */,
 			);
 			path = CircleProgressDemo;
@@ -148,6 +141,37 @@
 				470303051C31148C00A624BF /* Info.plist */,
 			);
 			path = CircleProgressDemoUITests;
+			sourceTree = "<group>";
+		};
+		472CA4F61C33D49900CB0E11 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				472CA4F71C33D49900CB0E11 /* AppDelegate.h */,
+				472CA4F81C33D49900CB0E11 /* AppDelegate.m */,
+				472CA4FF1C33D49900CB0E11 /* ViewController.h */,
+				472CA5001C33D49900CB0E11 /* ViewController.m */,
+				472CA4FC1C33D49900CB0E11 /* view */,
+				472CA4F91C33D49900CB0E11 /* category */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		472CA4F91C33D49900CB0E11 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				472CA4FA1C33D49900CB0E11 /* UIColor+Extension.h */,
+				472CA4FB1C33D49900CB0E11 /* UIColor+Extension.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		472CA4FC1C33D49900CB0E11 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				472CA4FD1C33D49900CB0E11 /* CircleProgressView.h */,
+				472CA4FE1C33D49900CB0E11 /* CircleProgressView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,11 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				470302E61C31148C00A624BF /* ViewController.m in Sources */,
-				470303131C3116C500A624BF /* CircleProgressView.m in Sources */,
-				470303171C316B8600A624BF /* UIColor+Extension.m in Sources */,
-				470302E31C31148C00A624BF /* AppDelegate.m in Sources */,
+				472CA5011C33D49900CB0E11 /* AppDelegate.m in Sources */,
+				472CA5031C33D49900CB0E11 /* CircleProgressView.m in Sources */,
+				472CA5021C33D49900CB0E11 /* UIColor+Extension.m in Sources */,
 				470302E01C31148C00A624BF /* main.m in Sources */,
+				472CA5041C33D49900CB0E11 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
